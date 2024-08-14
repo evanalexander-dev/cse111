@@ -1,0 +1,37 @@
+{
+    "loaches": {
+        "max-length": 12,
+        "min-quantity": 5,
+        "max-quantity": -1,
+        "min-tank-size": 55,
+        "incompatible": []
+    },
+    "oscars": {
+        "max-length": 18,
+        "min-quantity": 1,
+        "max-quantity": 1,
+        "min-tank-size": 75,
+        "incompatible": ["platies", "rasboras", "tetras"]
+    },
+    "platies": {
+        "max-length": 3,
+        "min-quantity": 3,
+        "max-quantity": -1,
+        "min-tank-size": 10,
+        "incompatible": ["oscars"]
+    },
+    "rasboras": {
+        "max-length": 2,
+        "min-quantity": 6,
+        "max-quantity": -1,
+        "min-tank-size": 10,
+    "incompatible": ["oscars"]
+    },
+    "tetras": {
+        "max-length": 2,
+        "min-quantity": 6,
+        "max-quantity": -1,
+        "min-tank-size": 10,
+        "incompatible": ["oscars"]
+    }
+}

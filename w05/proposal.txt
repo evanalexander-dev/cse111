@@ -1,0 +1,47 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+Aquarium Fish Calculator
+
+2. What real-world problem will your program address or help to solve?
+My program will help in making stocking decisions for fish tanks. Overstocking is a common problem in the aquarium community.
+
+3. What will you learn from developing this program?
+I will learn how to create a GUI in python, and using json files for extended storage over multiple program runs.
+
+4. What Python modules will your program use?
+I will be using json, math, pytest, and tkinter. If I have extra time, I may also use requests.
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+main
+add_fish_to_aquarium
+remove_fish_from_aquarium
+get_aquarium_issues
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+test_add_fish_to_aquarium
+test_remove_fish_from_aquarium
+test_get_aquarium_issues
